@@ -1,0 +1,21 @@
+.maindiv {
+    background-color: rgb(182, 217, 248);
+    width: 90%;
+    height: 90vh;
+    margin-left: 2.5%;
+    margin-top: 1.5%;
+    border-radius: 25px;
+    display: flex;
+}
+
+.divOne {
+    background-color: white;
+    border-radius: 25px 0px 0px 25px;
+    flex: 3;
+}
+
+.divTwo {
+    background-color:rgba(150, 149, 149, 0.54);
+    border-radius: 0px 25px 25px 0px;
+    flex: 7;
+}

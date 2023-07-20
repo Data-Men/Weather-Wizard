@@ -1,0 +1,21 @@
+.todayStatus {
+    height: 50%;
+    display: grid;
+    margin-top: 2%;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 48.5% 48.5%;
+    grid-gap: 10px;
+    padding: 0% 5% 0% 5%;
+}
+
+.gridItem {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.gridItem:hover {
+    background-color: azure;
+    color: rgb(11, 13, 14);
+    font-size: x-large;
+}
