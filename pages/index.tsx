@@ -9,6 +9,10 @@ import { SearchBar, Status } from './../components/SearchBar'
 import { Forecast } from "./../components/Forcasts";
 import { Wind, Humidity, SunriseAndSunset } from './../components/Status'
 
+
+//Context
+// import weatherData from './../context/context';
+
 export default function Home() {
   return (
     <>
@@ -32,7 +36,7 @@ export default function Home() {
               <Wind />
               <Humidity />
               <SunriseAndSunset />
-              <Humidity />            
+              <Humidity />
             </div>
           </div>
         </div>
